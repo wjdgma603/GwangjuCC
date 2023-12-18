@@ -1,0 +1,331 @@
+@media (min-width:376px) and (max-width:1024px) {
+    section.header_wrap {
+        width: calc(100% - 2%);
+    }
+    .header_wrap>.var_wrap{
+        display: flex;  
+    }
+    .header_wrap>.var_wrap>div.reservation>a {
+        padding: 20px 30px;
+    }
+    .header_wrap>.var_wrap>.head_lang>.lang {
+        margin-right: 5px;
+    }
+    .header_wrap>.var_wrap>.head_lang>.earth {
+        top: 2px;
+    }
+    .header_wrap>nav>ul.gnb>li:nth-of-type(n+2) {
+        margin-left: 20px;
+    }
+    /* 헤더 */
+
+    .course_info_wrap {
+        /* padding-top: initial; */
+        width: 90%;
+    }
+    .course_info_wrap>.main_title_wrap>h1 {
+        text-align: center;
+    }
+    .course_info {
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .course_img {
+        width: 40vw;    
+        padding-top: 1px;
+        background-size:contain;
+    }
+    .course_item{
+        display: flex;
+        position: relative;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        margin: 10px 0;
+
+    }
+    .course_item:nth-of-type(n+2) {
+        margin-left: initial;
+    }
+    .course_title {
+        font-size: 32px;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        margin-top: initial;
+    }
+    .course_description {
+        font-size: 24px;
+        margin-top: initial;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+    .course_item>.moreview_btn{
+        position: absolute;
+        top: 65%;
+        left: 50%;
+    }
+    .moreview_btn>a {
+        margin-top: initial;
+    }
+    /* 섹터1 */
+
+    .swiper_description>div {
+        padding-left: 50px;
+    }
+    /* 섹터2 */
+    .sector4>article {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 80px;
+    }
+    .Facswiper-pagination.swiper-pagination-bullets {
+        left: 70%;
+        display: initial;
+    }
+    .weather-info-box {
+        flex-direction: column;
+        padding: 16px 16px;
+    }
+    .weather-desc {
+        margin-top: 10px;
+    }
+    .downText{
+        flex-direction: column;
+    }
+    .downText>ul{
+        order: 1;
+    }
+    .copyright{
+        order: 2;
+        margin-top: 30px;
+    }
+}
+@media (max-width:375px) {
+    div.reservation_search_wrap{
+        width: initial;
+        background: none;
+    }
+    div.reservation_search_wrap>div:not(:last-child){
+        display: none;
+    }
+    .gnb{
+        display: none;
+    }
+    .logo>a>svg{
+        width: 100px;
+    }
+    div.var_wrap>div.head_lang{
+        display: none;
+    }
+    .header_wrap>.var_wrap>div.reservation>a {
+        padding: 10px 20px;
+    }
+    .header_wrap>div.logo>a {
+        width: initial;
+        height: initial;
+        display: inline-block;
+    }
+    section.header_wrap {
+        width: calc(100% - 10%);
+    }
+    div.main_title_wrap>h1 {
+        font-size: 42px;
+        padding: 56px;
+    }
+
+    /* course */
+    .course_info{
+        flex-direction: column;
+    }
+    .course_info_wrap {
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+    .course_item:nth-of-type(n+2) {
+        margin-left: initial;
+        margin-top: 40px;
+    }
+    .course_item>.moreview_btn>a{
+        margin-top: 20px;   
+    }
+    main>section.sector2{
+        min-height: max-content;
+        min-height: 1400px;
+    }
+    /* sector 3  */
+    .sector3{
+        flex-direction: column  ;
+    }
+    .swiper {
+        width: 100%;
+        height: 300px;
+    }
+    .sub-slide {
+        width: 100%;
+        height: 20%;
+        margin-top: 10px;
+    }
+    .swiper_description>div {
+        padding-left: initial;
+        margin: 0 auto;
+    }
+    .main_title_wrap{
+        display: flex;
+        justify-content: center;
+    }
+    .swiper_description>div>.main_title_wrap>h1{
+        text-align: center;
+    }
+    .swiper_description>div>.moreview_btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        width: 30px;
+        height: 30px;   
+    }
+    .sector3 .swiper-pagination {
+        display: none;
+    }
+    .swiper-button-next {
+        right: 35px;
+    }
+    .swiper-button-prev {
+        left: 35px;
+    }
+    br {
+        display: none;
+    }
+    .swiper_description>div>.main_title_wrap>h1 {
+        font-size: 32px;
+    }
+    .sector3{
+        height: initial;
+        margin-bottom: 50px;
+    }
+    .swiper_description>div>.moreview_btn>a {
+        width: initial;
+        margin-top: 20px;
+        padding: 0 40px 0 20px;
+    }
+    /* sector4 */
+    section.sector4{
+        height: initial;
+    }
+    .sector4>article {
+        flex-direction: column;
+        margin: initial;
+        padding: 10px;
+        width: 100%;
+    }
+    .weather-info{
+        margin-top: 75px;
+    }
+    .sector4>article>div.fac-info {
+        width: 100%;
+        margin-right: initial; 
+    }
+    .FacSwiper {
+        height: 300px;
+    }
+    .sector4>article>div>h1 {
+        font-size: 32px;
+    }
+    .Facswiper-pagination.swiper-pagination-bullets {
+        left: 60%;
+        display: initial;
+    }
+    .Factitle{
+        font-size: 22px;
+    }
+    .fac-info{
+        margin-top: 75px;
+    }
+    .sector4>article>div.weather-info {
+        width: 100%;
+    }
+    .WeatherSwiper {
+        height: 300px;
+        overflow: hidden;
+    }
+    .Facswiper-pagination.swiper-pagination-bullets {
+        left: 70%;
+        display: initial;
+    }
+    .weather-info-box {
+        flex-direction: column;
+        padding: 16px 16px;
+    }
+    .weather-desc {
+        margin-top: 10px;
+    }
+    .logo-wrap>.logo {
+        width: 125px;
+        height: 50px;
+    }
+    .footerText {
+        padding-top: 50px;
+    }
+    .ft {
+        padding: 30px 10px;
+    }
+    .SNS>div>a {
+        width: 25px;
+        height: 25px;
+    }
+    .SNS>.blog>a {
+        background-image: url(../img/blog.png);
+        margin-left: 30px;
+        width: 27.5px;
+    }
+    .logo-wrap {
+        height: initial;
+    }
+    .upText>ul {
+        display: initial;
+        justify-content: initial;
+    }
+    .upText>ul>li{
+        display: inline-block;
+    }
+    .upText>ul>li:not(:first-child)>a {
+        margin-left: 25px;
+    }
+    .footerText>div.upText>ul>li:nth-child(n+4)>a{
+        margin-left: initial;
+        margin-top: 20px;
+    }
+    .downText>ul>li{
+        display: inline-block;
+        word-break: keep-all;
+    }
+    .downText{
+        flex-direction: column;
+    }
+    .downText>ul{
+        order: 1;
+        display: block  ;
+    }
+    .copyright{
+        order: 2;
+        margin-top: 30px;
+    }
+    .downText>ul>li:not(:first-child) {
+        padding-left: 30px;
+    }
+    .downText>ul>li:not(:first-child)::after {
+        left: 15px;
+    }
+    .footer {
+        width: 100%;
+        height: 50vh;
+        background-image: url(../img/footer.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+}
